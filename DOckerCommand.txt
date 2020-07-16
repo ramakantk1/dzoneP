@@ -43,4 +43,18 @@ DOcker image creation 44:15
 2. Build the image
 3. push the image to docker hub.
 
+https://docs.docker.com/engine/reference/commandline/run/
+-p is to map the port of host with docker container
+docker run -p 6767:6767 --rm someprefix/accountservice
+
+Steps to make docker running on the local enviornment
+1. Create the Dockerfile with below content
+FROM iron/base
+
+EXPOSE 6767
+ADD accountservice-linux-amd64 /
+ENTRYPOINT ["./accountservice-linux-amd64"]
+2. go build -o accountservice-linux-amd64
+3.docker build -t someprefix/accountservice .
+4.docker run -p 6767:6767 --rm someprefix/accountservice
 
