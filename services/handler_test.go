@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"microservices/my-project/Dzone/dbclient" //is the folder name where we have the package
-	"microservices/my-project/Dzone/model"
+	"Dzone/dbclient" //is the folder name where we have the package
+	"Dzone/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

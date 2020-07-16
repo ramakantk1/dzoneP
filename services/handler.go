@@ -2,7 +2,7 @@ package service
 
 import (
 	"encoding/json"
-	dbclient "microservices/my-project/Dzone/dbclient" //is the folder name where we have the package
+	dbclient "Dzone/dbclient" //is the folder name where we have the package
 	"net/http"
 	"strconv"
 

@@ -1,7 +1,7 @@
 package dbclient
 
 import (
-	"microservices/my-project/Dzone/model"
+	"Dzone/model"
 
 	"github.com/stretchr/testify/mock"
 )

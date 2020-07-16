@@ -2,11 +2,15 @@ package main
 
 //this example is from https://dzone.com/articles/go-microservices-part-2-building-our-first-service?fromrel=true
 //https://dzone.com/articles/go-microservices-blog-series-part-1
+//original blog location is https://callistaenterprise.se/blogg/teknik/2017/02/17/go-blog-series-part1/
 // the second part also talk about performace foot print using tool Gatling
+//for home pc
 import (
 	"fmt"
-	"microservices/my-project/Dzone/dbclient"         //is the folder name where we have the package
-	service "microservices/my-project/Dzone/services" //is the folder name where we have the package
+	//"microservices/my-project/Dzone/dbclient"         //is the folder name where we have the package
+	//service "microservices/my-project/Dzone/services" //is the folder name where we have the package
+	"Dzone/dbclient"         //is the folder name where we have the package
+	service "Dzone/services" //is the folder name where we have the package
 )
 
 var appName = "accountservice"

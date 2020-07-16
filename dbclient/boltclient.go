@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
-	model "microservices/my-project/Dzone/model" //is the folder name where we have the package
+	model "Dzone/model" //is the folder name where we have the package
 	"strconv"
 
 	"github.com/boltdb/bolt"
